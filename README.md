@@ -12,7 +12,7 @@ clone the repo
 
 ###Backend Module
 
-https://github.com/SanaNaveen/SearchSuggestion/tree/backend/SearchBar
+https://github.com/SanaNaveen/SearchSuggestion/tree/master/SearchBar
 
 import exsisting maven project in our sts and choose file location
 
@@ -28,7 +28,7 @@ run as spring boot app
 
 ###Frontend module
 
-https://github.com/SanaNaveen/SearchSuggestion/tree/frontend/search_ui
+https://github.com/SanaNaveen/SearchSuggestion/tree/master/search_ui
 
 ##Follow the below steps
 
