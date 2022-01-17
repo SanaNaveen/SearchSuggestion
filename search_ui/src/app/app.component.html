@@ -1,0 +1,24 @@
+
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      
+      <h4 class="h4-color">Search Country <span> <i class="fa fa-flag flag-color" aria-hidden="true"></i></span></h4>
+      <hr>
+      <div class="form-group">
+
+        <label for="exampleInputEmail1" class="search-label">Search Bar</label>
+        <input type="text" class="form-control" placeholder="Search Bar" id="searchMenu" data-toggle="dropdown" (keyup)="getChar($event)" [(ngModel)]="name"  />
+        
+         <ul class="dropdown-menu" role="menu" aria-labelledby="searchMenu" [ngClass]="ulEnable ? 'ul-show' : 'ul-hide'">
+          <li role="presentation" class="list-group-item" *ngFor="let data of dataList" (click)="setInputValue(data)" style="cursor: pointer;">
+            {{ data }}
+          </li>                   
+        </ul>
+      </div>
+
+
+    </div>
+  </div>
+</div>

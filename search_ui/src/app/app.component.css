@@ -1,0 +1,20 @@
+.ul-show{
+    display: block;
+}
+
+.ul-hide{
+
+    display: none;
+}
+
+.flag-color {
+    color: #74b9ff;
+}
+
+.h4-color{
+    color: #55efc4;
+}
+
+.search-label{
+    color: #00b894;
+}
